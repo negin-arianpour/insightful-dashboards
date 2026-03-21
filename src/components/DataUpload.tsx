@@ -13,7 +13,7 @@ export function DataUpload({ onDataLoaded }: DataUploadProps) {
       const reader = new FileReader();
       reader.onload = (e) => {
         const text = e.target?.result as string;
-        const { parseCSV } = require("@/lib/sample-data");
+        const parsed = parseCSV(text);
         const parsed = parseCSV(text);
         if (parsed.length > 0) onDataLoaded(parsed);
       };
