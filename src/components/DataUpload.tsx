@@ -14,7 +14,6 @@ export function DataUpload({ onDataLoaded }: DataUploadProps) {
       reader.onload = (e) => {
         const text = e.target?.result as string;
         const parsed = parseCSV(text);
-        const parsed = parseCSV(text);
         if (parsed.length > 0) onDataLoaded(parsed);
       };
       reader.readAsText(file);
