@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import { Upload, FileSpreadsheet } from "lucide-react";
-
+import { parseCSV } from "@/lib/sample-data";
 interface DataUploadProps {
   onDataLoaded: (data: Record<string, string | number>[]) => void;
 }
