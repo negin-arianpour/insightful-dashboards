@@ -1,3 +1,4 @@
 # Welcome to your Lovable project
-
-TODO: Document your project here
+Description: e.g. "AI-powered insightful dashboard built with React, TypeScript & shadcn/ui"
+Website:  live URL  (https://insight-wiz-dash.lovable.app/)
+Topics: react, typescript, dashboard, shadcn-ui, vite
